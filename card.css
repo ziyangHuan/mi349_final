@@ -1,0 +1,47 @@
+body{
+    background-color:#535bd4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    margin-top: 100px;
+}
+
+h1{
+    margin:15px 0;
+
+}
+img{
+    width: 100%;
+}
+h2{
+    margin: 0;
+    font-weight: 100;
+}
+.card{
+    background-color: rgb(135, 54, 167);
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 10px;
+    border: 1px solid rgb(123, 42, 143);
+}
+.card .avatar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 10px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.contacts{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.contacts li{
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+.contacts li a img:hover{
+    color:blue;
+    transition: color ease-in-out 0.2s;
+}
