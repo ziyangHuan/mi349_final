@@ -72,6 +72,10 @@ section{
     width: 600px;
     height: 400px;
 }
+.blog-post .building3{
+    width: 600px;
+    height: 600px;
+}
 article{
     background:rgb(221, 45, 245);
     padding:60px;
